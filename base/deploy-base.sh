@@ -193,7 +193,7 @@ function run() {
     gitUpdate $DOCKER_DIR $DOCKER_REPO $SERVER_ENV
 
     #sync file to build dir
-    rsyncHard $SOURCE_DIR/$SOURCE_SUBDIR $BUILD_DIR
+    rsyncHard $SOURCE_DIR $BUILD_DIR
     #override config in build dir
     rsyncSoft $CONFIG_DIR/config $BUILD_DIR
 
