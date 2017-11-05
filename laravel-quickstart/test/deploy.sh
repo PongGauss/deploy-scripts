@@ -13,16 +13,16 @@ DEPLOY_BASEDIR="/bitnami/jenkins/1001/deploys"
 
 #SOURCE MASTER
 SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
-SRC_MASTER_URL="http://<your-jenkins-server-ip>:8080"
+SRC_MASTER_URL="http://54.179.162.180:8080"
 
 #SERVER
-SERVERS="ubuntu@<your-app-server-ip>"
+SERVERS="ubuntu@54.255.206.234"
 SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
 #GITS
-GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/pong3ds"
-SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source.git"
+GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/PongGauss"
+SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source3.git"
 CONFIG_REPO="$GITREPO_URL/laravel-quickstart-config.git"
 DOCKER_REPO="$GITREPO_URL/laravel-quickstart-dockers.git"
 SOURCE_SUBDIR="web"
