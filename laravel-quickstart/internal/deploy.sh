@@ -1,4 +1,4 @@
-#!/bin/bash INTERNAL
+#!/bin/bash
 
 CONFIG_ENV=$1
 SERVER_ENV=$2
@@ -21,8 +21,8 @@ SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
 #GITS
-GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/<your-github-username>"
-SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source.git"
+GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/PongGauss"
+SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source3.git"
 CONFIG_REPO="$GITREPO_URL/laravel-quickstart-config.git"
 DOCKER_REPO="$GITREPO_URL/laravel-quickstart-dockers.git"
 SOURCE_SUBDIR="web"
